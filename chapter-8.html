@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="./main.css">
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #fff;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper-wrapper {
+      padding-block: 17px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="site-header" id="header">
+    <div class="container">
+      <div class="header-wrapper">
+
+        <ul class="site-list">
+
+
+          <li class="site-item">
+            <p class="site-desc">Shahar: <u class="site-u">Toshkent</u></p>
+          </li>
+
+          <li class="site-item">
+            <p class="site-desc">Topshirish punktlari</p>
+          </li>
+
+          <li class="site-item">
+            <p class="site-p">Buyurtmangizni 1 kunda bepul yetkazib beramiz!</p>
+          </li>
+
+          <li class="site-item">
+            <p class="site-desc-2">Savol-javoblar </p>
+          </li>
+
+          <li class="site-item">
+            <p class="site-desc-2">Buyurtmalarim</p>
+          </li>
+
+          <li class="site-item">
+            <div class="iten-box">
+              <img src="./images/uzb.png" alt="">
+              <p class="site-p-2">Buyurtmalarim</p>
+            </div>
+          </li>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <section class="hero">
+      <div class="container">
+
+        <ul class="main-list">
+
+          <li class="main-item">
+            <img width="215px" src="./images/img-2.svg" alt="">
+          </li>
+
+          <li class="main-item">
+            <div class="main-box">
+              <img class="main-item-img" src="./images/img-3.svg" alt="">
+              <p class="link-desc">Katalog</p>
+
+            </div>
+          </li>
+
+          <li class="main-item">
+            <div class="main-box-2">
+              <form action="">
+                <input type="Sreach" placeholder="Mahsulotlar va turkumlar izlash">
+              </form>
+              <a class="main-link" href="#">
+                <img src="./images/img-4.svg" alt="">
+              </a>
+            </div>
+          </li>
+
+
+          <li class="main-item">
+            <a class="item-link" href="#">
+              <img src="./images/acc.svg" alt="">
+              <p class="item-desc">Kirish</p>
+            </a>
+          </li>
+
+          <li class="main-item">
+            <a class="item-link" href="#">
+              <img src="./images/img-5.svg" alt="">
+              <p class="item-desc">Saralangan</p>
+            </a>
+          </li>
+
+          <li class="main-item">
+            <a class="item-link" href="#">
+              <img src="./images/savat.svg" alt="">
+              <p class="item-desc">Savat</p>
+            </a>
+          </li>
+
+
+
+        </ul>
+
+        <ul class="main-list-2">
+        
+          <li class="main-item-2">
+            <div class="main-div">
+              <img src="./images/div.image.svg" alt="">
+        
+              <p class="main-p">
+                Muddatli to'lov
+              </p>
+        
+            </div>
+          </li>
+        
+          <li class="main-item-2">
+        
+            <a class="chapter-link" href="./index.html">
+              Bosh sahida
+            </a>
+        
+          </li>
+        
+          <li class="main-item-2">
+        
+            <a class="chapter-link" href="./chaper-1.html">
+             Elektronika
+            </a>
+        
+          </li>
+        
+        
+          <li class="main-item-2">
+            <a class="chapter-link" href="./chapter-2.html">
+             Maishiy-texnika
+            </a>
+          </li>
+        
+        
+          <li class="main-item-2">
+            <a class="chapter-link" href="./chapter-3.html">
+            kiyimlar
+            </a>
+          </li>
+        
+        
+        
+          <li class="main-item-2">
+            <a class="chapter-link" href="./chapter-4.html">
+              Poyabzallar
+            </a>
+          </li>
+        
+          <li class="main-item-2">
+            <a class="chapter-link" href="./chapter-5.html">
+            Guzallik
+            </a>
+          </li>
+        
+          <li class="main-item-2">
+            <a class="chapter-link" href="./chapter-6.html">
+              Salomatlik
+            </a>
+          </li>
+        
+          <li class="main-item-2">
+            <a class="chapter-link" href="./chapter-7.html">
+              Uy texnikasi
+            </a>
+          </li>
+        
+        </ul>
+
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img class="main-img" src="./images/uzum markwt.png" alt=""></div>
+            <div class="swiper-slide"><img class="main-img" src="./images/uzum2.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="main-img" src="./images/uzum3.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="main-img" src="./images/uzum4.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="main-img" src="./images/uzum5.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="main-img" src="./images/uzum6.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="main-img" src="./images/uzum7.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="main-img" src="./images/uzuzm8.jpg" alt=""></div>
+
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+
+
+        <h2 class="h2-arzon">Arzon narxlar</h2>
+
+
+        <ul class="hero-ul">
+
+
+          <li class="main-li">
+
+            <img class="li-img" src="./images/tamirlash1.jpg" alt="">
+
+            <div class="texts-box">
+              <p class="li-desc">
+                Udarli akkumulyatorli dril NUMBER ONE CDI20/2.6-IN-BR ONE
+              </p>
+
+              <div class="p-box">
+
+                <img src="./images/yulduz.svg" alt="">
+                <p class="p-li">
+                  4.5 (1960 sharsh)
+                </p>
+
+              </div>
+
+              <mark>33 407 so'm/oyiga</mark>
+            </div>
+
+            <div class="btn-s-box">
+              <div class="texts-box-2">
+                <s class="s-texts">
+                  468 990  so'm
+                </s>
+                <br>
+                <strong class="strong-texts">
+                  439 270 so'm
+                </strong>
+              </div>
+
+              <div class="btn-box">
+                <a class="btn-link" href="./chapter1.html">
+                  <img src="./images/Button.svg" alt="">
+                </a>
+              </div>
+
+            </div>
+
+
+
+
+          </li>
+
+
+          <li class="main-li">
+
+            <img class="li-img" src="./images/tamirlash-2.jpg" alt="">
+
+            <div class="texts-box">
+              <p class="li-desc">
+              Yelim to'pponchasi, termo to'pponcha va 10 ta yelim tayoqcha
+              </p>
+
+              <div class="p-box">
+
+                <img src="./images/yulduz.svg" alt="">
+                <p class="p-li">
+                  4.5 (1960 sharsh)
+                </p>
+
+              </div>
+              <mark>1 407 so'm/oyiga</mark>
+
+
+            </div>
+
+            <div class="btn-s-box">
+              <div class="texts-box-2">
+                <s class="s-texts">
+                  26 990  so'm
+                </s>
+                <br>
+                <strong class="strong-texts">
+                  25 270 so'm
+                </strong>
+              </div>
+
+              <div class="btn-box">
+                <a class="btn-link" href="./chapter1.html">
+                  <img src="./images/Button.svg" alt="">
+                </a>
+              </div>
+
+            </div>
+
+
+
+
+          </li>
+
+
+
+          <li class="main-li">
+
+            <img class="li-img" src="./images/tamirlash -3.jpg" alt="">
+
+            <div class="texts-box">
+              <p class="li-desc">
+              Magnit tutqich, payvandlash magni
+              </p>
+
+              <div class="p-box">
+
+                <img src="./images/yulduz.svg" alt="">
+                <p class="p-li">
+                  4.7 (2600 sharsh)
+                </p>
+
+              </div>
+              <mark>2 843 so'm/oyiga</mark>
+
+
+            </div>
+
+            <div class="btn-s-box">
+              <div class="texts-box-2">
+                <s class="s-texts">
+                  29 910so'm
+                </s>
+                <br>
+                <strong class="strong-texts">
+                  27 552  so'm
+                </strong>
+              </div>
+
+              <div class="btn-box">
+                <a class="btn-link" href="./chapter1.html">
+                  <img src="./images/Button.svg" alt="">
+                </a>
+              </div>
+
+            </div>
+
+
+
+
+          </li>
+
+
+
+          <li class="main-li">
+
+            <img class="li-img" src="./images/tamirlash-4.jpg" alt="">
+
+            <div class="texts-box">
+              <p class="li-desc">
+              Payvandlash apparati, svarka P.I.T PMI180/220-C1/2/3,P.I.T. PMI140-C1
+              </p>
+
+              <div class="p-box">
+
+                <img src="./images/yulduz.svg" alt="">
+                <p class="p-li">
+                  4.8 (243 sharsh)
+                </p>
+
+              </div>
+              <mark>48 970 so'm/oyiga</mark>
+
+
+            </div>
+
+            <div class="btn-s-box">
+              <div class="texts-box-2">
+                <s class="s-texts">
+                  678 000 so'm
+                </s>
+                <br>
+                <strong class="strong-texts">
+                  638 930 so'm
+                </strong>
+              </div>
+
+              <div class="btn-box">
+                <a class="btn-link" href="./chapter1.html">
+                  <img src="./images/Button.svg" alt="">
+                </a>
+              </div>
+
+            </div>
+
+
+
+
+          </li>
+
+
+
+
+          <li class="main-li">
+
+            <img class="li-img" src="./images/tamirlash-5.jpg   " alt="">
+
+            <div class="texts-box">
+              <p class="li-desc">
+              Udarli akkumulyatorli dril NUMBER ONE CDI20/2.6-IN-BR ONE
+              </p>
+
+              <div class="p-box">
+
+                <img src="./images/yulduz.svg" alt="">
+                <p class="p-li">
+                  4.91 ( sharsh)
+                </p>
+
+              </div>
+              <mark>33 520 so'm/oyiga</mark>
+
+
+            </div>
+
+            <div class="btn-s-box">
+              <div class="texts-box-2">
+                <s class="s-texts">
+                  468 627  so'm
+                </s>
+                <br>
+                <strong class="strong-texts">
+                  439 000 so'm
+                </strong>
+              </div>
+
+              <div class="btn-box">
+                <a class="btn-link" href="./chapter1.html">
+                  <img src="./images/Button.svg" alt="">
+                </a>
+              </div>
+
+            </div>
+
+
+
+
+          </li>
+
+
+
+          <li class="main-li">
+
+            <img class="li-img" src="./images/tamirlash-5.jpg" alt="">
+
+            <div class="texts-box">
+              <p class="li-desc">
+              Udarli akkumulyatorli dril NUMBER ONE CDI20/2.6-IN-BR ONE
+              </p>
+
+              <div class="p-box">
+
+                <img src="./images/yulduz.svg" alt="">
+                <p class="p-li">
+                  4.5 (1982 sharsh)
+                </p>
+
+              </div>
+              <mark>2 407 so'm/oyiga</mark>
+
+
+            </div>
+
+            <div class="btn-s-box">
+              <div class="texts-box-2">
+                <s class="s-texts">
+                  439 990   so'm
+                </s>
+                <br>
+                <strong class="strong-texts">
+                  468 270  so'm
+                </strong>
+              </div>
+
+              <div class="btn-box">
+                <a class="btn-link" href="./chapter1.html">
+                  <img src="./images/Button.svg" alt="">
+                </a>
+              </div>
+
+            </div>
+
+
+
+
+          </li>
+
+
+
+          <li class="main-li">
+
+            <img class="li-img" src="./images/tamirlash-7.jpg" alt="">
+
+            <div class="texts-box">
+              <p class="li-desc">
+            Germetik uchun kurakcha shpatel 3 da 1
+              </p>
+
+              <div class="p-box">
+
+                <img src="./images/yulduz.svg" alt="">
+                <p class="p-li">
+                  4.6 (1208 sharsh)
+                </p>
+
+              </div>
+              <mark>1 367so'm/oyiga</mark>
+
+
+            </div>
+
+            <div class="btn-s-box">
+              <div class="texts-box-2">
+                <s class="s-texts">
+                  25 300  so'm
+                </s>
+                <br>
+                <strong class="strong-texts">
+                  23 370  so'm
+                </strong>
+              </div>
+
+              <div class="btn-box">
+                <a class="btn-link" href="./chapter1.html">
+                  <img src="./images/Button.svg" alt="">
+                </a>
+              </div>
+
+            </div>
+
+
+
+
+          </li>
+
+
+
+          <li class="main-li">
+
+            <img class="li-img" src="./images/tamirlash-8.jpg" alt="">
+
+            <div class="texts-box">
+              <p class="li-desc">
+                Qurilish va ta'mirlash uchun himoya respiratori / Bo'yoq ishlari va
+              </p>
+
+              <div class="p-box">
+
+                <img src="./images/yulduz.svg" alt="">
+                <p class="p-li">
+                  4.5 (6051 sharsh)
+                </p>
+
+              </div>
+              <mark>1 407 so'm/oyiga</mark>
+
+
+            </div>
+
+            <div class="btn-s-box">
+              <div class="texts-box-2">
+                <s class="s-texts">
+                  49 000 so'm
+                </s>
+                <br>
+                <strong class="strong-texts">
+                  45 080 so'm
+                </strong>
+              </div>
+
+              <div class="btn-box">
+                <a class="btn-link" href="./chapter1.html">
+                  <img src="./images/Button.svg" alt="">
+                </a>
+              </div>
+
+            </div>
+
+
+
+
+          </li>
+
+
+
+          <li class="main-li">
+
+            <img class="li-img" src="./images/tamirlash-9.jpg" alt="">
+
+            <div class="texts-box">
+              <p class="li-desc">
+                Qurilish pichog'i, 3 ta almashtiriladigan pichoq bilan,
+              </p>
+
+              <div class="p-box">
+
+                <img src="./images/yulduz.svg" alt="">
+                <p class="p-li">
+                  4.7 (1415 sharsh)
+                </p>
+
+              </div>
+              <mark>2 826 so'm/oyiga</mark>
+
+
+            </div>
+
+            <div class="btn-s-box">
+              <div class="texts-box-2">
+                <s class="s-texts">
+                  16 910  so'm
+                </s>
+                <br>
+                <strong class="strong-texts">
+                  15 712  so'm
+                </strong>
+              </div>
+
+              <div class="btn-box">
+                <a class="btn-link" href="./chapter1.html">
+                  <img src="./images/Button.svg" alt="">
+                </a>
+              </div>
+
+            </div>
+
+
+
+
+          </li>
+
+
+          <li class="main-li">
+
+            <img class="li-img" src="./images/tamirlash-10.jpg" alt="">
+
+            <div class="texts-box">
+              <p class="li-desc">
+                Qurilish pichog'i, 3 ta almashtiriladigan pichoq bilan,
+              </p>
+            
+              <div class="p-box">
+            
+                <img src="./images/yulduz.svg" alt="">
+                <p class="p-li">
+                  4.7 (1415 sharsh)
+                </p>
+            
+              </div>
+              <mark>2 826 so'm/oyiga</mark>
+            
+            
+            </div>
+            
+            <div class="btn-s-box">
+              <div class="texts-box-2">
+                <s class="s-texts">
+                  16 910  so'm
+                </s>
+                <br>
+                <strong class="strong-texts">
+                  15 712  so'm
+                </strong>
+              </div>
+            
+              <div class="btn-box">
+                <a class="btn-link" href="./chapter1.html">
+                  <img src="./images/Button.svg" alt="">
+                </a>
+              </div>
+            
+            </div>
+
+
+
+
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+  </main>
+
+
+  <a class="purchse-link" href="./index.html">
+    ortga qaytish
+  </a>
+  
+  
+  
+  <footer class="site-footer">
+    <div class="container">
+  
+      <ul class="footer-list">
+  
+        <li class="footer-item">
+          <a class="footer-link" href="#">
+            Biz haqimizda
+          </a>
+  
+          <br>
+  
+          <a class="footer-link-2" href="#">
+            Topshirish punktlari
+          </a>
+  
+          <br>
+  
+          <a class="footer-link-2" href="#">
+            Vakansiyalar
+          </a>
+        </li>
+  
+        <li class="footer-item">
+          <a class="footer-link" href="#">
+            Foydalanuvchilarga
+          </a>
+  
+          <br>
+  
+          <a class="footer-link-2" href="#">
+            Biz bilan bogʻlanish
+          </a>
+  
+          <br>
+  
+          <a class="footer-link-2" href="#">
+            Savol-Javob
+          </a>
+        </li>
+  
+  
+        <li class="footer-item">
+          <a class="footer-link" href="#">
+            Tadbirkorlarga
+          </a>
+  
+          <br>
+  
+          <a class="footer-link-2" href="#">
+            Uzumda soting
+          </a>
+  
+          <br>
+  
+          <a class="footer-link-2" href="#">
+            Ilovani yuklab olish
+          </a>
+  
+          <a class="footer-link-2" href="#">
+            Uzum ijtimoiy tarmoqlarda
+          </a>
+        </li>
+  
+  
+  
+        <li class="footer-item">
+          <a class="footer-link" href="#">
+            Biz haqimizda
+          </a>
+  
+          <div class="footer-box">
+            <a class="App-link" href="https://www.apple.com/app-store/">
+              AppStore
+            </a>
+            <div class="footer-link-box">
+  
+              <a class="footer-link-img" href="https://play.google.com/store/games?device=windows">
+                <img src="./images/google play.png" alt="">
+                Google play
+              </a>
+  
+            </div>
+  
+  
+          </div>
+  
+  
+  
+          <div class="link-box-footer">
+  
+            <a class="footer-link" href="#">
+              Uzum ijtimoiy tarmoqlarda
+            </a>
+  
+            <div class="footer-img-link">
+  
+              <a class="footer-img" href="https://www.instagram.com/">
+                <img src="./images/insta.png" alt="">
+              </a>
+  
+              <a class="footer-img" href="https://web.telegram.org/k/">
+                <img src="./images/telegram.png" alt="">
+              </a>
+  
+              <a class="footer-img" href="https://www.youtube.com/">
+                <img src="./images/you tube.png" alt="">
+              </a>
+  
+              <a class="footer-img" href="https://www.facebook.com/">
+                <img src="./images/facebook.png" alt="">
+              </a>
+            </div>
+  
+  
+  
+          </div>
+  
+        </li>
+  
+      </ul>
+  
+      <hr>
+  
+      <div class="footer-div">
+  
+        <div class="footer-texts">
+          <h3 class="footer-title">
+            Maxfiylik kelishuvi
+          </h3>
+  
+          <h3 class="footer-title">
+            Foydalanuvchi kelishuvi
+          </h3>
+  
+        </div>
+  
+  
+        <p class="footer-desc">
+          «2024© XK MCHJ «UZUM MARKET». STIR 309376127. Barcha huquqlar himoyalangan»
+        </p>
+  
+  
+      </div>
+  
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+</body>
+
+</html>
