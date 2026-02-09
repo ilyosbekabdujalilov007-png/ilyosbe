@@ -469,7 +469,7 @@ mark{
 
 
 .input-box{
-  margin-inline: auto;
+
   width: max-content;
   margin-top: 190px;
   box-shadow: 10px 10px 13px -10px #000;
@@ -569,9 +569,8 @@ mark{
 
 .hero-title-desc{
   padding: 15px 15px 15px 15px;
-  margin-inline: auto;
   box-shadow: 10px 10px 13px -10px #fff;
-  width: 700px;
+  width: 500px;
   margin-top: 285px;
   border-radius: 8px;
   background-color: #fff;
@@ -581,14 +580,13 @@ mark{
   font-weight: 500;
   font-size: 14px;
   line-height: 16.8px;
-  vertical-align: middle;
   color: #1F1F26;
   padding: 10px 87px 10px 87px;
   background-color: #F2F4F7;
   margin-top: 20px;
   display: inline-block;
   border-radius: 8px; 
-  margin-left: 197px;
+  margin-left: 97px;
 }
 
 .chapter-link{
