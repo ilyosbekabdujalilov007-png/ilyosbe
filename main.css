@@ -469,7 +469,7 @@ mark{
 
 
 .input-box{
-
+  margin-inline: auto;
   width: max-content;
   margin-top: 190px;
   box-shadow: 10px 10px 13px -10px #000;
@@ -568,6 +568,7 @@ mark{
 }
 
 .hero-title-desc{
+  margin-inline: auto;
   padding: 15px 15px 15px 15px;
   box-shadow: 10px 10px 13px -10px #fff;
   width: 500px;
